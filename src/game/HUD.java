@@ -52,4 +52,7 @@ public class HUD {
         this.level = level;
     }
 
+    public static void setHEALTH(float HEALTH) {
+        HUD.HEALTH = HEALTH;
+    }
 }
